@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 10f;
     Vector2 lastClickedPos;
+    bool moving;
     
     private void Update()
     {
