@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 10f;
     Vector2 lastClickedPos;
     bool moving;
+    printf("poop");
     
     private void Update()
     {
